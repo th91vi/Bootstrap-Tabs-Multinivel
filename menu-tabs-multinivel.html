@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <title>Teste abas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        .nav>li>a:hover {
+            background-color: transparent;
+        }
+        .nav-tabs, .nav-tabs li a, .nav-tabs li a:hover {
+            border: none;
+        }
+        .nav-tabs li.active a, .nav-tabs li.active a:hover {
+            border: none;
+            background-color: transparent;
+        }
+        #menuDesktop ul li a {
+            color: #333;
+            text-transform: uppercase;
+            opacity: .6;
+            font-family: 'Roboto Slab', serif;
+        }
+        #menuDesktop ul li.active a {
+            opacity: 1;
+            border: none;
+        }
+        .parentTabs ul li.active a {
+            border-bottom: red 3px solid !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tabbable boxed parentTabs" id="menuDesktop">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#urbanismo">Urbanismo e paisagismo</a>
+                        </li>
+                        <li><a href="#arquitetura">Arquitetura</a>
+                        </li>
+                        <li><a href="#ambientacao">Ambientação e design</a>
+                        </li>
+                        <li><a href="#restauro">Retrofit e restauro</a>
+                        </li>
+                        <li><a href="#museus">Museus e exposições</a>
+                        </li>
+                        <li><a href="#culturais">Projetos culturais</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="urbanismo">
+                            <div class="tabbable">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#urbanismoParcelamentos">Parcelamentos</a>
+                                    </li>
+                                    <li><a href="#urbanismoOrlas">Orlas</a>
+                                    </li>
+                                    <li><a href="#urbanismoPracas">Praças</a>
+                                    </li>
+                                    <li><a href="#urbanismoParques">Parques e Jardins</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade active in" id="urbanismoParcelamentos">
+                                        <p>Parcelamentos</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="urbanismoOrlas">
+                                        <p>Orlas</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="urbanismoPracas">
+                                        <p>Praças</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="urbanismoParques">
+                                        <p>Parques e Jardins</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="arquitetura">
+                            <div class="tabbable">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#arquiteturaResidencialUnifamiliar">Residencial
+                                            Unifamiliar</a>
+                                    </li>
+                                    <li><a href="#arquiteturaResidencialMultifamiliar">Residencial Multifamiliar</a>
+                                    </li>
+                                    <li><a href="#arquiteturaComercial">Comercial</a>
+                                    </li>
+                                    <li><a href="#arquiteturaCorporativo">Corporativo</a>
+                                    </li>
+                                    <li><a href="#arquiteturaInstitucional">Institucional</a>
+                                    </li>
+                                    <li><a href="#arquiteturaHospitalar">Hospitalar</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade active in" id="arquiteturaResidencialUnifamiliar">
+                                        <p>Residencial Unifamiliar</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="arquiteturaResidencialMultifamiliar">
+                                        <p>Residencial Multifamiliar</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="arquiteturaComercial">
+                                        <p>Comercial</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="arquiteturaCorporativo">
+                                        <p>Corporativo</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="arquiteturaInstitucional">
+                                        <p>Institucional</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="arquiteturaHospitalar">
+                                        <p>Hospitalar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ambientacao">
+                            <div class="tabbable">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#ambientacaoResidencial">Residencial</a>
+                                    </li>
+                                    <li><a href="#ambientacaoComercial">Comercial</a>
+                                    </li>
+                                    <li><a href="#ambientacaoCorporativo">Corporativo</a>
+                                    </li>
+                                    <li><a href="#ambientacaoInstitucional">Institucional</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade active in" id="ambientacaoResidencial">
+                                        <p>Residencial</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="ambientacaoComercial">
+                                        <p>Comercial</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="ambientacaoCorporativo">
+                                        <p>Corporativo</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="ambientacaoInstitucional">
+                                        <p>Institucional</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="restauro">
+                            <div class="tabbable">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#restauroComercial">Comercial</a>
+                                    </li>
+                                    <li><a href="#restauroCorporativo">Corporativo</a>
+                                    </li>
+                                    <li><a href="#restauroInstitucional">Institucional</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade active in" id="restauroComercial">
+                                        <p>Comercial</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="restauroCorporativo">
+                                        <p>Corporativo</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="restauroInstitucional">
+                                        <p>Institucional</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="museus">
+                            <div class="tabbable">
+                                <!-- <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#sub21">Tab 2.1</a>
+                                    </li>
+                                    <li><a href="#sub22">Tab 2.2</a>
+                                    </li>
+                                </ul> -->
+                                <div class="tab-content">
+                                    <img src="proposta-desktop.png" alt="" class="img-responsive">
+                                    <!-- <div class="tab-pane fade active in" id="sub21">
+                                        <p>Tab 2.1</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="sub22">
+                                        <p>Tab 2.2</p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="culturais">
+                            <div class="tabbable">
+                                <!-- <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#sub21">Tab 2.1</a>
+                                    </li>
+                                    <li><a href="#sub22">Tab 2.2</a>
+                                    </li>
+                                </ul> -->
+                                <div class="tab-content">
+                                    <img src="proposta-mobile.png" alt="" class="img-responsive">
+                                    <!-- <div class="tab-pane fade active in" id="sub21">
+                                        <p>Tab 2.1</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="sub22">
+                                        <p>Tab 2.2</p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script>
+        $("ul.nav-tabs a").click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+    </script>
+</body>
+
+</html>
